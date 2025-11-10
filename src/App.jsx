@@ -1,9 +1,10 @@
-import { useRef, useState, useEffect, lazy, Suspense } from "react";
+import { useRef, useState, useEffect } from "react";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
 import ShinyText from "./components/ShinyText/ShinyText";
 import BlurText from "./components/BlurText/BlurText";
 import ScrambledText from "./components/ScrambledText/ScrambledText";
 import SplitText from "./components/SplitText/SplitText";
+import Lanyard from "./components/Lanyard/Lanyard";
 import GlassIcons from "./components/GlassIcons/GlassIcons";
 import { listTools, listProyek } from "./data";
 import ChromaGrid from "./components/ChromaGrid/ChromaGrid";
@@ -14,8 +15,6 @@ import ChatRoom from "./components/ChatRoom";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
-
-const Lanyard = lazy(() => import('./components/Lanyard/Lanyard'));
 
 function App() {
   const aboutRef = useRef(null);
@@ -176,9 +175,7 @@ function App() {
 
             {/* Kolom kanan */}
             <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center ">
-              <Suspense fallback={<div className="w-full h-[400px] flex justify-center items-center">Loading 3D Model...</div>}>
-                <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} />
-              </Suspense>
+              <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} />
             </div>
           </div>
 
