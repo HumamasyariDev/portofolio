@@ -229,7 +229,7 @@ export const listProyek = [
   {
     id: 6,
     image: Proyek6,
-    title: "Coffee Shop Website",
+    title: "Sistem gerbang Tol IOT",
     subtitle: "Sistem gerbang tol otomatis cerdas yang mengintegrasikan Machine...",
     fullDescription:"Sistem gerbang tol otomatis cerdas yang mengintegrasikan Machine Learning untuk pengenalan plat nomor dan klasifikasi jenis kendaraan secara real-time. Arsitekturnya terdiri dari aplikasi client-side berbasis Python dan Tkinter yang memanfaatkan model YOLO untuk deteksi objek dan EasyOCR untuk pengenalan karakter, serta backend API yang dibangun dengan Laravel untuk menangani validasi, transaksi, dan manajemen tarif. Proyek ini mendemonstrasikan implementasi sistem visi komputer yang kompleks untuk otomatisasi infrastruktur, dengan fitur tambahan seperti tracking kendaraan, pencegahan transaksi duplikat, dan simulasi palang pintu tol.",
     borderColor: "#10B981",
