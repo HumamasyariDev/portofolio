@@ -223,7 +223,7 @@ export const listProyek = [
     fullDescription:"Platform e-commerce komprehensif untuk toko fashion online, dirancang dengan fungsionalitas terpisah untuk pengguna dan administrator. Pengguna dapat melakukan registrasi, menelusuri produk, mengelola keranjang belanja, menyelesaikan proses checkout, hingga melacak riwayat pesanan dan profil pribadi. Di sisi lain, panel admin menyediakan kontrol penuh atas manajemen produk, pesanan, dan akun pengguna. Dibangun dengan tumpukan teknologi fundamental PHP, MySQL, dan JavaScript, proyek ini menjadi cetak biru yang solid untuk sistem ritel online yang fungsional dan mudah",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
-    url: "https://github.com/rissss21",
+    url: "https://github.com/HumamasyariDev/toko-fashion-sederhana",
     dad: "500",
   },
   {
