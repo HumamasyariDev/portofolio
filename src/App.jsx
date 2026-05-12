@@ -32,8 +32,13 @@ function App() {
   };
 
   const handleDownloadCV = (e) => {
-    e.preventDefault(); // mencegah default download behavior
-    setShowComingSoon(true); // tampilkan popup coming soon
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = '/humam.pdf';
+    link.download = 'humam.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const handleCloseComingSoon = () => {
